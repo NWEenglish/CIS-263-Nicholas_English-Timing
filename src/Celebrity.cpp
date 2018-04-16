@@ -9,27 +9,27 @@
  *********************************************************************/
 
 /* Libraries */
-#include <string>
 #include "Celebrity.h"
+#include <string>
 
 /* Implements the Celebrity.h file */
 Celebrity::Celebrity(){}
 
 /* Getters */
-std::string getName() const {return name:}
+std::string Celebrity::getName() const {return name;}
 
-int getScore() const {return score;}
+int Celebrity::getScore() const {return score;}
 
-std::string getAreaOfWork() const {return area;}
+std::string Celebrity::getAreaOfWork() const {return areaOfWork;}
 
-bool getIfMet() const {return ifMet;}
+bool Celebrity::getIfMet() const {return ifMet;}
 
 /* Setters */
-void setName(std::string n) {name = n;}
+void Celebrity::setName(std::string n) {name = n;}
 
-void setScore(int s) {score = s;}
+void Celebrity::setScore(int s) {score = s;}
 
-void setAreaOfWork(std::string a) {areaOfWork = a;}
+void Celebrity::setAreaOfWork(std::string a) {areaOfWork = a;}
 
-void setIfMet(bool m) {ifMet = m;}
+void Celebrity::setIfMet(bool m) {ifMet = m;}
 

@@ -12,14 +12,15 @@
 #define __H_celeb__
 
 /* Libraries */
-#include <stirng>
+#include <string>
 #include <iostream>
+#include <vector>
 
 class Celebrity {
 
     public:
 
-	/* Contructor */
+	/* Defualt Contructor */
 	Celebrity();
 
 	/* Mutators */
